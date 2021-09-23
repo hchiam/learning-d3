@@ -1,8 +1,8 @@
 # Learning D3
 
-Just one of the things I'm learning. <https://github.com/hchiam/learning>
+Data-Driven Documents. <https://www.youtube.com/watch?v=bp2GF8XcJdY>
 
-Data-Driven Documents.
+Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 You can generate a [dependency graph](https://github.com/hchiam/learning-dependency-cruiser) with `bash show_dep_graph.sh`.
 
