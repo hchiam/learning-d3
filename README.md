@@ -1,8 +1,8 @@
 # Learning D3
 
-Data-Driven Documents. <https://www.youtube.com/watch?v=bp2GF8XcJdY> D3 syntax feels very much like jQuery, but its power comes with `.data(arrayOrFile)`, its states methods, and helper functions.
-
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
+
+Data-Driven Documents. <https://www.youtube.com/watch?v=bp2GF8XcJdY> D3 syntax feels very much like jQuery, but its power comes with `.data(arrayOrFile)`, its states methods, and helper functions.
 
 You can generate a [dependency graph](https://github.com/hchiam/learning-dependency-cruiser) with `bash show_dep_graph.sh`.
 
