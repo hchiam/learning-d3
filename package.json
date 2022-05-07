@@ -5,6 +5,7 @@
   "description": "Data-Driven Documents (This file was first created using the Yeoman generator generator-hchiam-learning: https://www.npmjs.com/package/generator-hchiam-learning",
   "main": "src/index.js",
   "scripts": {
+    "dev": "npm run start",
     "start": "open src/index.html",
     "build": "",
     "test": "jest --passWithNoTests",
