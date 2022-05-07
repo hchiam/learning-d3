@@ -170,11 +170,21 @@ function addArcToSVG(svg, arc, colour, textString) {
     .attr("fill", colour)
     .attr("transform", `translate(${svgSize / 2}, ${svgSize / 2})`);
 
-  const text = svg.append("text").attr("x", 50).attr("dy", 14);
+  console.log(svgSize);
+
+  const text = svg
+    .append("text")
+    .attr("x", 50)
+    .attr("dy", 16)
+    .attr("transform", `rotate(90deg)`)
+    .attr("transform-origin", `${svgSize / 2 + 50}px ${svgSize / 2 - 16}px`);
+
   text
     .append("textPath")
     .attr("stroke", "white")
-    .attr("fill", "white")
+    .attr("stroke-width", 0.55)
+    .attr("fill", "black")
+    .attr("font-weight", 900)
     .attr("xlink:href", "#path" + colour)
     .text(textString);
 }
