@@ -21,3 +21,13 @@ Reference: <https://www.freecodecamp.org/learn/data-visualization/data-visualiza
 - helpers example: `.scaleBand().range().domain()` to draw x-axis and y-axis scales
 - helpers example: `.transition().duration(2000).attr('width', '400')` to animate each data point as data is added
 - you can also add interactivity that feels like jQuery `.on('mouseover', () => showToolTip())` or `.on('click')`
+
+## Demo
+
+Then to quickly serve the example, install [`parcel`](https://github.com/hchiam/learning-parcel) globally (so not specifically for this project):
+
+```sh
+npm install -g parcel-bundler
+# or:
+yarn global add parcel
+```

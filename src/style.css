@@ -1,5 +1,5 @@
 * {
-  background: rgb(32,32,32);
+  background: rgb(32, 32, 32);
   font-family: avenir, arial;
   border-radius: 10px;
 }
@@ -10,6 +10,15 @@ body {
 
 svg {
   background: whitesmoke;
+}
+
+a {
+  color: lime;
+}
+
+a:focus,
+a:hover {
+  color: white;
 }
 
 /**
