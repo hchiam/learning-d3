@@ -31,3 +31,14 @@ npm install -g parcel-bundler
 # or:
 yarn global add parcel
 ```
+
+## Aside: D3 `<path>`/svg `.click()` note
+
+```js
+/** Because simply using d3Element.click() or jQuery $(d3Element).click() doesn't work:
+https://stackoverflow.com/questions/9063383/how-to-invoke-click-event-programmatically-in-d3 */
+function triggerD3PathClick(d3Element) {
+  const event = new MouseEvent("click");
+  d3Element.dispatchEvent(event);
+}
+```
